@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgba(214, 187, 187, 0.8);
+}
+
+#container{
+  margin: 0 auto;
+  width: 900px;
+}
+
+hr{
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+section{
+  margin-top: 34px;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 2px brown;
+  text-align: center;
+}
+
+h2, h3{
+  font-size: 16px;
+}
+
+#table-entries{
+  display: flex;
+  justify-content: start;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.date-col{
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Noto Serif Gujarati', serif;
+  font-size: 14px;
+}
+
+td a{
+  text-decoration: None;
+  color: black;
+}
+
+td a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.title-col{
+  font-size: 14px;
+  padding-left: 6px;
+  font-weight: bold;
+  vertical-align: baseline;
+  width: 100%;
+}
+
