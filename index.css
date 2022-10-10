@@ -10,7 +10,8 @@
 }
 
 body{
-  background-color: rgba(214, 187, 187, 0.8);
+  /* background-color: rgba(214, 187, 187, 0.8); */
+  background-color: rgba(195, 214, 187, 0.8);
 }
 
 #container{
