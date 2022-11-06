@@ -2,6 +2,7 @@
   <head>
     <link rel="stylesheet" href="display.css">
 	<title>No JS Here</title>
+	<link rel="icon" href="geng.png">
   </head>
   <body> 
     <div id="container">
@@ -15,9 +16,9 @@
       
       <section id="table-entries"> 
 				<div class="p-entry" id="remove-top-margin">
-					<h2>Wordsmith - a 2015 Party Game</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/Wordsmith">source code</a>
+					<h2>Wordsmith - Videogame</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/Wordsmith">source code</a>
 					<hr/>
-					<p class="date-col">Inspired by how fun the game was to play, Wordsmith is based off the 2015 card game "Codenames". The game supports online multiplayer, 12 simultaneous connections, and multiple games.</p>
+					<p class="date-col">Inspired by the Czech card game "Codenames", I made the desktop application equivalent. Supports multiple rounds, up to 12 players, and team switching.</p>
 					<div class="gallery">
 						<img src="https://i.imgur.com/X2Hyxok.png">
 						<img src="https://i.imgur.com/ogxhb8q.png">
@@ -25,9 +26,9 @@
 					</div>
 				</div>
 				<div class="p-entry">
-					<h2>Leech Box - P2P Sharing</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/LeechBox">source code</a>
+					<h2>Leech Box - P2P File Sharing</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/LeechBox">source code</a>
 					<hr/>
-					<p class="date-col">Uploading files to third-party sites to share them struck me as odd one day so I developed my own peer-to-peer application. Simply drag & drop. In hindsight thought I should have just port forwarded a local server or setup a torrent.</p>
+					<p class="date-col">Simple peer-to-peer file sharing program that supports drag n' drop.</p>
 					<div class="gallery">
 						<img src="https://i.imgur.com/N7FbQDQ.png">
 						<img src="https://i.imgur.com/4VtZAIb.png">
@@ -35,9 +36,9 @@
 					</div>
 				</div>
 				<div class="p-entry">
-					<h2>MCT - Server/Client Rollback</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/MyCastleTown">source code</a>
+					<h2>MCT - Rollback Implementation</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/MyCastleTown">source code</a>
 					<hr/>
-					<p class="date-col">A networking experiment involving a larger than usual menu system, chat box, and rollback. Despite this faux game being a 2d, top-down type, I still tried to shoehorn rollback... realistically, I shouldn't have and for simplicity's sake should have used a low tick-rate TCP architecture instead.</p>
+					<p class="date-col">A networking experiment to manually implement rollback functionality into a network. Through implementing UDP packets in a TCP architecture a minimal lag environment is fostered; apt for games with high tick-rate servers.</p>
 					<div class="gallery">
 						<img src="https://i.imgur.com/z9DweKP.png">
 						<img src="https://i.imgur.com/8ZXRdbW.png">
@@ -47,49 +48,29 @@
 				<div class="p-entry">
 					<h2>Gaius - Crypto Bot</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/Gaius">source code</a>
 					<hr/>
-					<p class="date-col">Back in my day Bitcoin was $6.00... talk about a missed opportunity, eh? Gaius is a simple crypto bot that abides by the strategy of "whale trading" or in other words "volume trading". I don't know much about day trading, but others certainly seem to. So when Gaius spots a large buy/sell order it follows suit- piggybacking off other's hedges.</p>
+					<p class="date-col">Bot that monitors and actively trades crypto on Bittrex. Through adhering to volume trading, the bot automatically decides whether to buy or sell at market price based on other's completed, public transactions.</p>
 					<div class="gallery">
 					</div>
 				</div>
 				<div class="p-entry">
-					<h2>Halo History - Finding People You Knew</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/HaloHistory">source code</a>
+					<h2>Message Saver - Web Scraper</h2><div class="no-source">lost</div>
 					<hr/>
-					<p class="date-col">A long time ago I played a lot of Halo on Xbox Live. That was very long ago and there are a lot of lost friends. So one day I decided to web scrape Bungie's player match history page and relearned the names of people I've played hundreds of games with. This web scraper scrapes all games and outputs the most played with players in descending order.</p>
-					<div class="gallery">
-					</div>
-				</div>
-				<div class="p-entry">
-					<h2>Nyaa - Discord Bot</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/Nyaa">source code</a>
-					<hr/>
-					<p class="date-col">What was I trying to achieve with this? I think it was created purely to try out Discord's API and to inconvenience my friends in the server! If I remember you played roulette with the bot and if you were unlucky you were shot (muted for a duration).</p>
-					<div class="gallery">
-					</div>
-				</div>
-				<div class="p-entry">
-					<h2>Mafia Message Saver - Cataloger</h2><div class="no-source">lost in time</div>
-					<hr/>
-					<p class="date-col">I use to frequent EpicMafia, a deception based party game. It had a healthy community and many-a-players. But the site's future was iffy and that bothered me with how many people and memories I've shared through it so I made a program to scrape my entire DMs, organize them, format, and save locally as a stylized HTML file. It worked and I publically released it to the community.</p>
+					<p class="date-col">Developed years ago for a community, this program logged the user in and scraped their entire DMs before organizing them and outputting a formatted HTML file to save and view locally. This program was created to catalogue a user's history and fond interactions with others on a site that had stability issues.</p>
 					<div class="gallery">
 						<img src="https://i.imgur.com/BtpNiLg.png">
 					</div>
 				</div>
-				<div class="p-entry extra-bottom">
-					<h2>And All the Rest</h2>
+				<div class="p-entry">
+					<h2>Halo History - Web Scraper</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/HaloHistory">source code</a>
 					<hr/>
-					<p class="date-col">
-						Most of the stuff I do is spurred from a desire to want something I can't easily find online or from curiosity of how it works:
-						<br>- Reimplemented the server/host architecture in c# but with multi-thread support
-						<br>- Multiple mock shopping sites with checkout, cookies, cart, and more
-						<br>- A Pygame map maker. Import tiles to create, place them down in large worlds, and export a map
-						<br>
-						<br>
-						And lastly, what about those that didn't come to fruition?
-						<br>- A peer to peer video streaming program so you and your buddies can watch videos together with your own bandwidth, no third party
-						<br>- "Stream Events", an AI image recognition overlay for in-game events that can automatically trigger broadcaster settings 
-						<br>- "Spotify Together", reverse engineering Spotify I ran into issues. But the goal was to allow a program to snatch the current song and send that info to a peer also running the program that'll automatically switch their music so you can all listen together <i>for free</i>
-						<br>
-						<br>That's all I have for now, albeit not actually everything!
-					</p>
+					<p class="date-col">Scraper that was designed with the goal of finding out who my old friends of past were on Xbox Live. Ran on bungie.net, the scraper sifted through a player's entire match history and accumulated each player in each game ever. Then tallied who was played with the most before displaying results.</p>
+					<div class="gallery">
+					</div>
+				</div>
+				<div class="p-entry extra-bottom">
+					<h2>Cat - Discord Bot</h2><a class="source" target="_blank" href="https://github.com/illegalFruit/Nyaa">source code</a>
+					<hr/>
+					<p class="date-col">A simple Discord bot that timeouts anyone that challenges it in the server. Exists simply to play around and test Discord's API.</p>
 					<div class="gallery">
 					</div>
 				</div>
