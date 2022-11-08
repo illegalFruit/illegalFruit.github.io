@@ -10,8 +10,8 @@
 }
 
 body{
-  background-color: #d6bbbbcc;
-  
+  background: rgb(59,50,77);
+  background: linear-gradient(146deg, rgba(59,50,77,1) 0%, rgba(214,187,187,0.7511205165660014) 25%, rgba(214,187,187,0.7511204310825893) 90%, rgba(59,50,77,1) 100%);
 }
 
 #container{
