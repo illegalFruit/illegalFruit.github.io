@@ -89,7 +89,7 @@ td a:hover{
 }
 
 .p-entry{
-    margin-top: 34px;
+    margin-top: 64px;
     width: 100%;
 }
 
@@ -124,4 +124,8 @@ img:hover {
 
 .extra-bottom{
   margin-bottom: 120px;
+}
+
+.slighty-bigger-font{
+  font-size: 20px;
 }
