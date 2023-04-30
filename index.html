@@ -1,0 +1,223 @@
+<!DOCTYPE html> 
+	<head>
+	<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="slider.css">
+	<title>Dalbyte in Progress</title>
+	<link rel="icon" href="geng.png">
+	</head>
+	<body>
+	<canvas id="myCanvas"   width="1200" height="800"></canvas>
+    <div id="container">
+		<!-- <section>
+			<div class="center-me">
+				<a class="header" href="dalbyte.com">Dalbyte's Website</a>
+			</div>
+      	</section> -->
+	  	<section>
+			<div class="divider between">
+				<div id="accent"></div>
+				<p class="intro">
+					Heya, I'm <b>Dalton</b>.<br>
+					I am a <span class="underline">Computer Information Systems</span> graduate that has a knack for technology and a pastime for creating things.
+					<span class="grey">Check some of them out below or to the right!</span>
+				</p>
+				<div class="controls">
+					<h3>Background Controls</h3>
+					<div class="float-left">Center Size</div>
+					<input autocomplete="off" class="slider" type="range" min="1" max="9" value="5" id="slide1">
+					<div class="float-left">Orbit Speed</div>
+					<input autocomplete="off" class="slider" type="range" min="-8" max="-1" value="-6" id="slide2">
+					<div class="float-left">Orbit Chaos</div>
+					<input autocomplete="off" class="slider" type="range" min="0" max="4" value="0" id="slide3">		
+				</div>
+			</div>
+	  	</section>
+      	<section id="table-entries">
+			<div class="p-entry">
+				<div class="divider between">
+					<h2>Space Station - Videogame</h2>
+					<a class="source" target="_blank" href=""></a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/game.svg" />
+				<div class="divider">
+					<p class="date-col">A mock up of a futuristic space station I did. Modeled in Trenchbroom and imported to Godot; dynamic lighting and baked light were used alongside global illumination and shaders. </p>
+					<div class="gallery" id="my-gallery">
+						<a href="/showcase/11.png"
+							data-pswp-width="1920" 
+							data-pswp-height="1057" 
+							target="_blank">
+							<img src="showcase/11.png" class="img-fluid">
+						</a>
+						<a href="/showcase/12.png"
+							data-pswp-width="1920" 
+							data-pswp-height="1057" 
+							target="_blank">
+							<img src="showcase/12.png" class="img-fluid">
+						</a>
+						<a href="/showcase/13.png"
+							data-pswp-width="1920" 
+							data-pswp-height="1057" 
+							target="_blank">
+							<img src="showcase/13.png" class="img-fluid">
+						</a>
+						<a href="/showcase/14.png"
+							data-pswp-width="1206" 
+							data-pswp-height="859" 
+							target="_blank">
+							<img src="showcase/14.png" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="p-entry">
+				<div class="divider between">
+					<h2>Wordsmith - Videogame</h2>
+					<a class="source" target="_blank" href="https://github.com/illegalFruit/Wordsmith/blob/main/WG/Script/Game.gd">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/game.svg" />
+				<div class="divider">
+					<p class="date-col">Inspired by the Czech card game "Codenames", I made the desktop application equivalent. Supports multiple rounds, up to 12 players, and team switching.</p>
+					<div class="gallery" id="my-gallery">
+						<a href="/showcase/5.png"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							target="_blank">
+							<img src="showcase/5.png" class="img-fluid">
+						</a>
+						<a href="/showcase/9.png"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							target="_blank">
+							<img src="showcase/9.png" class="img-fluid">
+						</a>
+						<a href="/showcase/7.png"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							target="_blank">
+							<img src="showcase/7.png" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="p-entry">
+				<div class="divider between">
+					<h2>Leech Box - P2P File Sharing</h2>
+					<a class="source" target="_blank" href="https://github.com/illegalFruit/LeechBox/blob/main/LB/main.gd">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/graph.svg" />
+				<div class="divider">
+					<p class="date-col">Simple peer-to-peer file sharing program that supports drag n' drop.</p>
+					<div class="gallery" id="my-gallery">
+						<a href="/showcase/1.png"
+							data-pswp-width="358" 
+							data-pswp-height="161" 
+							target="_blank">
+							<img src="showcase/1.png" class="img-fluid">
+						</a>
+						<a href="/showcase/3.png"
+							data-pswp-width="358" 
+							data-pswp-height="161" 
+							target="_blank">
+							<img src="showcase/3.png" class="img-fluid">
+						</a>
+						<a href="/showcase/2.png"
+							data-pswp-width="463" 
+							data-pswp-height="325" 
+							target="_blank">
+							<img src="showcase/2.png" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="p-entry">
+				<div class="divider between"> 
+					<h2>MCT - Rollback Implementation</h2>
+					<a class="source" target="_blank" href="https://github.com/illegalFruit/MyCastleTown/tree/main/scenes">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/signal.svg" />
+				<div class="divider">
+					<p class="date-col">A networking experiment to manually implement rollback functionality into a network. Through implementing UDP packets in a TCP architecture a minimal lag environment is fostered; apt for games with high tick-rate servers.</p>
+					<div class="gallery" id="my-gallery">
+						<a href="/showcase/4.png"
+							data-pswp-width="1281" 
+							data-pswp-height="746" 
+							target="_blank">
+							<img src="showcase/4.png" class="img-fluid">
+						</a>
+						<a href="/showcase/6.png"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							target="_blank">
+							<img src="showcase/6.png" class="img-fluid">
+						</a>
+						<a href="/showcase/10.png"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							target="_blank">
+							<img src="showcase/10.png" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="p-entry">
+				<div class="divider between"> 
+					<h2>Gaius - Crypto Bot</h2>
+					<a class="source" target="_blank" href="https://github.com/illegalFruit/Gaius/blob/master/Gaius.V1%20-%20Crypto%20Bot.py">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/chart.svg" />
+				<p class="date-col">Bot that monitors and actively trades crypto on Bittrex. Through adhering to volume trading, the bot automatically decides whether to buy or sell at market price based on other's completed, public transactions.</p>
+			</div>
+			<div class="p-entry">
+				<h2>Message Saver - Web Scraper</h2>
+				<hr/>
+				<img class="svg" src="/svg_image/database.svg" />
+				<div class="divider">
+					<p class="date-col">Developed years ago for a community, this program logged the user in and scraped their entire DMs before organizing them and outputting a formatted HTML file to save and view locally. This program was created to catalogue a user's history and fond interactions with others on a site that had stability issues.</p>
+					<div class="gallery" id="my-gallery">
+						<a href="/showcase/8.png"
+							data-pswp-width="1023" 
+							data-pswp-height="538" 
+							target="_blank">
+							<img src="showcase/8.png" class="img-fluid">
+						</a>
+					</div>
+				</div>	
+			</div>
+			<div class="p-entry">
+				<div class="divider between"> 
+					<h2>Halo History - Web Scraper</h2>
+					<a class="source" target="_blank" href="https://github.com/illegalFruit/HaloHistory">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/circle-notch.svg" />
+				<p class="date-col">Scraper that was designed with the goal of finding out who my old friends of past were on Xbox Live. Ran on bungie.net, the scraper sifted through a player's entire match history and accumulated each player in each game ever. Then tallied who was played with the most before displaying results.</p>
+			</div>
+			<div class="p-entry">
+				<div class="divider between"> 
+					<h2>Cat - Discord Bot</h2>
+					<a class="source" target="_blank" href="https://github.com/illegalFruit/Nyaa/blob/master/Nyaa%20-%20Discord%20Bot.py">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/cat.svg" />
+				<p class="date-col">A simple Discord bot that timeouts anyone that challenges it in the server. Exists simply to play around and test Discord's API.</p>
+			</div>
+		</section>
+    </div>
+	<script type="module" src="logic.js"></script>
+	<script type="module">
+		import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
+		const lightbox = new PhotoSwipeLightbox({
+		  gallery: '#my-gallery',
+		  children: 'a',
+		  pswpModule: () => import('/photoswipe/photoswipe.esm.js')
+		});
+		lightbox.init();
+		</script>
+	</body>
+</html>
