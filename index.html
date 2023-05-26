@@ -104,6 +104,33 @@
 			</div>
 			<div class="p-entry">
 				<div class="divider between">
+					<h2>Websocket Chat Room</h2>
+					<a class="source" target="_blank" href="xxx">source code</a>
+				</div>
+				<hr/>
+				<img class="svg" src="/svg_image/graph.svg" />
+				<div class="divider">
+					<p class="date-col">Websocket based online chat room. Made it to explore how Godot handles web-based networking.</p>
+					<div class="gallery" id="my-gallery">
+						<a href="/showcase/15.png"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							target="_blank">
+							<img src="/showcase/15.png" class="img-fluid">
+						</a>
+						<a 
+							href="/showcase/16.webm"
+							data-pswp-video-src="/showcase/16.webm"
+							data-pswp-width="1282" 
+							data-pswp-height="747" 
+							data-pswp-type="video">
+							<img src="/showcase/16a.jpg" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="p-entry">
+				<div class="divider between">
 					<h2>Leech Box - P2P File Sharing</h2>
 					<a class="source" target="_blank" href="https://github.com/illegalFruit/LeechBox/blob/main/LB/main.gd">source code</a>
 				</div>
@@ -210,7 +237,7 @@
 		</section>
     </div>
 	<script type="module" src="logic.js"></script>
-	<script type="module">
+	<!-- <script type="module">
 		import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
 		const lightbox = new PhotoSwipeLightbox({
 		  gallery: '#my-gallery',
@@ -218,6 +245,22 @@
 		  pswpModule: () => import('/photoswipe/photoswipe.esm.js')
 		});
 		lightbox.init();
-		</script>
+	</script> -->
+	<script type="module">
+		import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
+		import PhotoSwipeVideoPlugin from '/photoswipe-video/photoswipe-video-plugin.esm.js';
+		
+		const lightbox = new PhotoSwipeLightbox({
+		  gallery: '#my-gallery',
+		  children: 'a',
+		  pswpModule: () => import('/photoswipe/photoswipe.esm.js')
+		});
+		
+		const videoPlugin = new PhotoSwipeVideoPlugin(lightbox, {
+		  // options
+		});
+		
+		lightbox.init();
+	</script>
 	</body>
 </html>
